@@ -1,6 +1,7 @@
 # Exploration-of-The-Data-Finding-Patterns-Trends-Regarding-Chipotle-Telelink-locations
 This project focuses on understanding customer churn for Telelink by analyzing trends in cities with and without Chipotle locations. 
 
+Tableau Link: https://public.tableau.com/views/D211_17254178947010/Story1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
 . Data was prepared using PostgreSQL (pgAdmin) to clean and combine datasets, while Tableau was used to create interactive visualizations. 
 The dashboard highlights churn rates, customer demographics, and income levels, providing actionable insights for stakeholders to develop targeted 
 marketing strategies and improve retention. This analysis demonstrates how data visualization and SQL-based preparation can uncover meaningful
