@@ -13,7 +13,7 @@ states VARCHAR,state VARCHAR,location VARCHAR,address VARCHAR,
 latitude NUMERIC,longitude NUMERIC
 ● To import the dataset
 ■ Right Click on the chipotle_locations table and click on import/export.
---command " "\\copy public.chipotle_locations (states, state, location, address, latitude, longitude) FROM 'C:/Users/LabUser/DOWNLO~1/CHIPOT~1.CSV' DELIMITER ',' CSV HEADER QUOTE '\"' ESCAPE '''';""
+--command " "\\copy public.chipotle_locations (states, state, location, address, latitude, longitude) FROM '_____'
 ● Make sure columns exist
 ■ SELECT *
 FROM customer LIMIT 10;
@@ -82,8 +82,9 @@ Income”
 ELSEIF [Age]<30 AND [Income]>=50000 THEN “Young & High Income”
 ELSEIF [Age]>=30 AND [Income]<50000 THEN “ Middle-aged & Low Income”
 ELSEIF [Age]>=30 AND [Income]>=50000 THEN “ Middle-aged & High Income” END
-B.https://wgu.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=a7756d0f-de58-42e8-bfcf -b1e901554506
+
 Part 3: Report
+
 C. Exploration of the data
 1. My goal was to bring awareness to the Telelink stakeholders in understanding
 customer churn in regards to Chipotle locations. I achieved this by finding patterns and trends that could help with brainstorming any marketing strategies. The Tableau dashboard includes visuals of churn rates in cities with and without Chipotle locations, customer details, and income levels. The visuals I have included such as pie charts, bar charts help stakeholders make decisions based on the data shown to reduce churn.
@@ -98,7 +99,7 @@ i. CREATE TABLE chipotle_locations(states VARCHAR,state VARCHAR,location VARCHAR
 Data Import:
 
  a. Imported the dataset into the newly created table using the COPY command
-i. \copy public.chipotle_locations (states, state, location, address, latitude, longitude) FROM 'C:/Users/LabUser/DOWNLO~1/CHIPOT~1.CSV' DELIMITER ',' CSV HEADER QUOTE '\"' ESCAPE '''';
+i. \copy public.chipotle_locations (states, state, location, address, latitude, longitude) FROM '______',' CSV HEADER QUOTE '\"' ESCAPE '''';
 3. Verification:
 a. Checked that the columns existed and data was correctly imported by previewing a sample of the data:
 i. SELECT * FROM customer LIMIT 10;
